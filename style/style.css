@@ -3,6 +3,13 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+p{
+    color: #919191;
+    font-size: 18px;
+}
+h2{
+    color: #566366;
+}
 .wrapper{
     position: relative;
 }
@@ -13,26 +20,20 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .wrapper h1{
-    width: 750px;
-    height: 45px;
+    width: 864px;
+    height: 81px;
     color: #fff;
-    font-size: 60px;
+    font-size: 69px;
     font-weight: 700;
     position: absolute;
-    top: calc(50% - 25px);
-    left: calc(50% - 325px);
-}
-.wrapper h1::after{
-    content: '';
-    border: 2px solid #fff;
-    width: 100%;
-}
-.wrapper h1::before{
-    content: '';
-    border: 2px solid #fff;
-    width: 100%;
+    top: calc(50% - 128px);
+    left: calc(50% - 459px);
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    text-transform: uppercase;
 }
 .wrapper .btn{
     position: absolute;
@@ -41,11 +42,79 @@
     padding: 22px 38px;
     cursor: pointer;
     transition: .4s;
-    bottom: calc( 50% - 200px);
+    bottom: calc( 50% - 130px);
     left: calc(50% - 90px);
 }
 .wrapper .btn:hover{
     color: rgb(0, 0, 0);
     border: 2px solid #fff;
     background-color: #fff;
+}
+
+.logo{
+    background-image: url(../image/logo.png);
+    height: 42px;
+    width: 150px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    margin: 0 auto;
+}
+header{
+    background-color: #252e30;
+}
+menu ul{
+    display: flex;
+}
+ul li{
+    color: #fff;
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 28px 0 28px 40px;
+
+    transition: .4s;
+}
+ul li:hover{
+    color: #2dba6a;
+    cursor: pointer;
+}
+
+.wrapp{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 99px;
+    padding-bottom: 96px;
+}
+.wrap h2{
+    margin-bottom: 48px;
+    font-size: 30px;
+}
+.wrap p{
+    font-weight: 400;
+}
+.about_text{
+    background-color: #f2f2f1;
+    padding-right: calc((100% - 1400px) / 2);
+}
+.about_text p{
+    padding-left: 100px;
+    margin-bottom: 60px;
+}
+.about_title{
+    /* padding-top: 100px;
+    padding-bottom: 48px; */
+    padding: 80px 0 48px 100px;
+}
+.about{
+    display: flex;
+}
+.photo_about{
+}
+.photo_about img{
+    width: 612px;
+    height: 724px;
 }
