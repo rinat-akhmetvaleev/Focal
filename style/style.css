@@ -100,7 +100,7 @@ ul li:hover{
     background-color: #f2f2f1;
     padding-right: calc((100% - 1400px) / 2);
 }
-.about_text p{
+.about_text .descrip{
     padding-left: 100px;
     margin-bottom: 60px;
 }
@@ -112,9 +112,56 @@ ul li:hover{
 .about{
     display: flex;
 }
-.photo_about{
-}
 .photo_about img{
     width: 612px;
     height: 724px;
+}
+.skil{
+    padding-left: 100px;
+    padding-bottom: 93px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.skil_item{
+    display: flex;
+    width: 50%;
+}
+.skil_item .web{
+    background-image: url(../image/about/icon/web.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-right: 27px;
+    height: 41px;
+    width: 41px;
+}
+.skil_item .graphic{
+    background-image: url(../image/about/icon/graphic.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-right: 27px;
+    height: 41px;
+    width: 41px;
+}
+.skil_item .marketing{
+    background-image: url(../image/about/icon/marketing.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-right: 27px;
+    height: 41px;
+    width: 41px;
+}
+.skil_item .seo{
+    background-image: url(../image/about/icon/seo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-right: 27px;
+    height: 41px;
+    width: 41px;
+}
+.skil_text h3{
+    padding-bottom: 21px;
+}
+.skil_text p{
+    padding-bottom: 56px;
 }
