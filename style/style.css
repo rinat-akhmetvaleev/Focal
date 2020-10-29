@@ -98,26 +98,26 @@ ul li:hover{
 }
 .about_text{
     background-color: #f2f2f1;
-    padding-right: calc((100% - 1400px) / 2);
+    padding-left: 150px;
+    padding-right: 300px;
 }
 .about_text .descrip{
-    padding-left: 100px;
+    padding-left: 50px;
     margin-bottom: 60px;
 }
 .about_title{
-    /* padding-top: 100px;
-    padding-bottom: 48px; */
-    padding: 80px 0 48px 100px;
+    padding: 80px 0 48px 50px;
 }
 .about{
     display: flex;
+    height: 724px;
 }
 .photo_about img{
     width: 612px;
     height: 724px;
 }
 .skil{
-    padding-left: 100px;
+    padding-left: 50px;
     padding-bottom: 93px;
     display: flex;
     align-items: flex-start;
@@ -161,7 +161,67 @@ ul li:hover{
 }
 .skil_text h3{
     padding-bottom: 21px;
+    color: #566366;
 }
 .skil_text p{
     padding-bottom: 56px;
+}
+.contact_me{
+    color: #2ecc71;
+    border: 2px solid #2ecc71;
+    padding: 20px 38px;
+    cursor: pointer;
+    transition: .4s;
+}
+.contact_me:hover{
+    color: #fff;
+    border: 2px solid #2ecc71;
+    background-color: #2ecc71;
+}
+.skill h2{
+    margin-top: 100px;
+    margin-bottom: 48px;
+}
+.skill p{
+    width: 700px;
+    margin-bottom: 46px;
+}
+.soft_skill{
+    width: 700px;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.soft_skill .skills{
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.skills .name{
+    padding-bottom: 19px;
+}
+progress{
+    margin-top: 19px;
+    background-color: #3aff8c;
+    width: 550px;
+    height: 30px;
+}
+progress::-webkit-progress-bar {
+    background-color: #3aff8c;
+}
+progress::-webkit-progress-value {
+    background-color: #3aff8c;
+}
+.soft_skill .photoshop{
+    margin-top: 136px;
+}
+.soft_skill div{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    width: 129px;
+    height: 17px;
+    color: #566366;
+    text-transform: uppercase;
+}
+.soft_skill:nth-last-child(1){
+    margin-bottom: 100px;
 }
