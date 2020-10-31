@@ -205,7 +205,7 @@ progress{
     height: 30px;
 }
 progress::-webkit-progress-bar {
-    background-color: #3aff8c;
+    background-color: #f2f2f1;
 }
 progress::-webkit-progress-value {
     background-color: #3aff8c;
@@ -224,4 +224,45 @@ progress::-webkit-progress-value {
 }
 .soft_skill:nth-last-child(1){
     margin-bottom: 100px;
+}
+/* 
+progress {
+    -webkit-appearance: none;
+  }
+  
+  ::-webkit-progress-bar {
+    background-color: blue;
+  }
+  
+  ::-webkit-progress-value {
+    background-color: green;
+  } */
+.summary{
+    background-color: #f2f2f1;
+}
+.summary .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.summary .container h2{
+    font-size: 30px;
+    margin-top: 100px;
+}
+.summary .container p{
+    text-align: center;
+    margin: 50px 75px;
+}
+.container .download{
+    color: #2ecc71;
+    border: 2px solid #2ecc71;
+    padding: 20px 38px;
+    cursor: pointer;
+    transition: .4s;
+    margin-bottom: 100px;
+}
+.container .download:hover{
+    color: #fff;
+    border: 2px solid #2ecc71;
+    background-color: #2ecc71;
 }
