@@ -266,3 +266,56 @@ progress {
     border: 2px solid #2ecc71;
     background-color: #2ecc71;
 }
+
+/* Education */
+.education{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.education_list{
+    padding-left: 36px;
+}
+.education_name{
+    line-height: 24px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #566366;
+    text-transform: uppercase;
+    padding-top: 75px;
+    padding-bottom: 19px;
+}
+.education_title{
+    color: #566366;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.education_text{
+    width: 660px;
+}
+.my_education p{
+    padding-top: 50px;
+    padding-right: 36px;
+}
+.collage{
+    font-weight: 400;
+    color: #919191;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #ccc;
+}
+.collage span{
+    color: #919191;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Roboto Medium";
+    font-weight: 500;
+}
+.collage_text{
+    padding-top: 29px;
+}
+.education_date:last-of-type p {
+    padding-bottom: 100px;
+}
